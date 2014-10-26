@@ -212,3 +212,22 @@ $video-thumb-url: '../themes/default/images/edx.png';
 
 }
 
+
+@mixin footer-list {
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline;
+        list-style-type: none;
+        padding-left: 5px;
+
+        a, a:hover, a:visited {
+            height: 33px;
+            line-height: 35px;
+            border-bottom: none;
+        }
+    }
+}
