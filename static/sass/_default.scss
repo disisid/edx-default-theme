@@ -203,16 +203,6 @@ $video-thumb-url: '../themes/default/images/edx.png';
     text-align: right;
 }
 
-.powered-by {
-    position: absolute;
-    right: -10px;
-    margin-top: -55px;
-
-    @include footer-list;
-
-}
-
-
 @mixin footer-list {
     ul {
         margin: 0;
@@ -231,3 +221,15 @@ $video-thumb-url: '../themes/default/images/edx.png';
         }
     }
 }
+
+.powered-by {
+    position: absolute;
+    right: -10px;
+    margin-top: -55px;
+
+    @include footer-list;
+
+}
+
+
+
