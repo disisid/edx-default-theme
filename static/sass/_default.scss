@@ -36,10 +36,7 @@ $black-80: #585754;
 //  Font Assignment
 //-----------------
 
-<<<<<<< HEAD
-=======
 
->>>>>>> FETCH_HEAD
 $theme-sans-font: 'Arial';
 $sans-serif: $theme-sans-font, "Helvetica", sans-serif;
 $body-font-family: $sans-serif;
@@ -142,7 +139,6 @@ $action-secondary-active-focused-shadow: none;
 $action-secondary-disabled-bg: $gray-3;
 $action-secondary-disabled-fg: $gray;
 
-//
 
 $border-color-1: $main-bg-60;
 $border-color-2: $main-bg-60;
@@ -183,12 +179,9 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
-<<<<<<< HEAD
 $homepage-bg-image: url('../themes/default/images/sunrise.jpg');
-=======
 $homepage-bg-image: url('../themes/default/images/back.jpg');
 $homepage-bg-image: '../themes/fun/images/pano.jpg';
->>>>>>> FETCH_HEAD
 
 $login-banner-image: none;
 $register-banner-image: none;
@@ -218,3 +211,4 @@ $video-thumb-url: '../themes/default/images/edx.png';
     @include footer-list;
 
 }
+
