@@ -183,7 +183,7 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
-$homepage-bg-image: url('../themes/default/images/sunrise.jpg');
+$homepage-bg-image: url('../themes/default/images/back.jpg');
 
 $login-banner-image: none;
 $register-banner-image: none;
@@ -203,4 +203,14 @@ $video-thumb-url: '../themes/default/images/edx.png';
 @mixin footer_references_style {
     margin: 0 !important;
     text-align: right;
+}
+
+
+.powered-by {
+    position: absolute;
+    right: -10px;
+    margin-top: -55px;
+
+    @include footer-list;
+
 }
